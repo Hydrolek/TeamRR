@@ -11,4 +11,4 @@ elif imie or nazwisko:
         print("Brak danych o imieniu.")
         print(f"Witaj, {nazwisko} !")
 else:
-    print("Brak podanego imienia i nazwiska ")
+    print("Brak podanego imienia i nazwiska.")
