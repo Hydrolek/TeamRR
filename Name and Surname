@@ -1,0 +1,14 @@
+imie = input("Podaj swoje imie: ")
+nazwisko = input("Podaj swoje nazwisko: ")
+
+if imie and nazwisko:
+    print(f"Witaj, {imie} {nazwisko} !")
+elif imie or nazwisko: 
+    if imie:      
+        print("Brak danych o nazwisku.")
+        print(f"Witaj, {imie} !")
+    else:
+        print("Brak danych o imieniu.")
+        print(f"Witaj, {nazwisko} !")
+else:
+    print("Brak podanego imienia i nazwiska ")
